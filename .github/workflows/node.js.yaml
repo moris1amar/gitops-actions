@@ -15,6 +15,7 @@ jobs:
     steps:
       - name: Folder node-js-ci 
         working-directory: ./node-js-ci
+        run: echo "Change to working Directory --> node-js-ci"
 
   checkout:
     runs-on: actions/checkout@v2
